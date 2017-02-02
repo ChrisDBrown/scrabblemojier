@@ -10,12 +10,16 @@ if (argv._.length === 0) {
   process.exit(1);
 }
 
-const str = process.argv[2].toLowerCase();
+const str = argv._[0].toLowerCase();
 const scrabbled = str
-  .split('')
-  .filter(char => char.match(/[a-z]/g))
-  .map(char => `${argv.prefix}${char}${argv.suffix}`)
-  .join(' ');
+  .split(' ')
+  .map(word => word
+    .split('')
+    .filter(char => char.match(/[a-z]/g))
+    .map(char => `${argv.prefix}${char}${argv.suffix}`)
+    .join(' '))
+  .join('    ');
+
 process.stdout.write(`${scrabbled}\n`);
 
 if (argv.copy) {

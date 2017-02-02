@@ -1,0 +1,24 @@
+{
+  "name": "scrabbler",
+  "version": "1.0.0",
+  "description": "Quickly transform text to emoji scrabble tiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisDBrown/scrabbler.git"
+  },
+  "keywords": [
+    "slack",
+    "emoji",
+    "scrabbler"
+  ],
+  "author": "Chris D Brown <owner@chrisdbrown.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisDBrown/scrabbler/issues"
+  },
+  "homepage": "https://github.com/ChrisDBrown/scrabbler#readme"
+}

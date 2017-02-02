@@ -1,6 +1,6 @@
 {
   "name": "scrabblemojier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly transform text to emoji scrabble tiles",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChrisDBrown/scrabblemojier.git"
+  },
+  "bin": {
+    "scrabblemojier": "index.js"
   },
   "keywords": [
     "slack",

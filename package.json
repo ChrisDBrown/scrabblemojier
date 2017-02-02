@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ChrisDBrown/scrabbler/issues"
   },
-  "homepage": "https://github.com/ChrisDBrown/scrabbler#readme"
+  "homepage": "https://github.com/ChrisDBrown/scrabbler#readme",
+  "dependencies": {
+    "copy-paste": "^1.3.0"
+  }
 }

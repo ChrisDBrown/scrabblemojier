@@ -26,7 +26,7 @@ Easy! Fast! Scrabble!
 
 ### Command line options
 
-Want to change an option just this time? Add these flags to the command
+Want to change an option just this time? Add these flags to the command.
 
 `--no-copy` if you don't want it going to your clipboard
 
@@ -38,7 +38,7 @@ Want to change an option just this time? Add these flags to the command
 
 ### .env file options
 
-Want to change an option _forever and ever_ (or at least until you change your mind)? Use the `.env.example` file as a guideline and make a `.env` file with these values
+Want to change an option _forever and ever_ (or at least until you change your mind)? Use the `.env.example` file as a guideline and make a `.env` file with these values.
 
 `SCRABBLEMOJIER_COPY=0` to disable copying
 
